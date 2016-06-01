@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/LayoutTheme">
+
+    <TextView
+        style="@style/TextoAsteroides.Tablet"
+        android:text="@string/tituloAplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:password="false"
+        android:phoneNumber="false" />
+
+    <Button
+        style="@style/TextoAsteroides.Tablet.Botones"
+        android:text="@string/Arrancar"
+        android:id="@+id/button01" />
+
+    <Button
+        style="@style/TextoAsteroides.Tablet.Botones"
+        android:text="@string/Configurar"
+        android:id="@+id/button02" />
+
+    <Button
+        style="@style/TextoAsteroides.Tablet.Botones"
+        android:text="@string/Acercade"
+        android:id="@+id/button3" />
+
+    <Button
+        style="@style/TextoAsteroides.Tablet.Botones"
+        android:text="@string/Salir"
+        android:id="@+id/button4" />
+</LinearLayout>

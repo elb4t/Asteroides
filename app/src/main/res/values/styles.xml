@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <!-- Layout theme. -->
+    <style name="LayoutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#0099cc</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    
+    <style name="TextoAsteroides" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:layout_marginBottom">20dip</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextoAsteroides.Botones" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">40dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextoAsteroides.Land.Botones" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextoAsteroides.Tablet" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">65sp</item>
+        <item name="android:layout_marginBottom">20dip</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextoAsteroides.Tablet.Botones" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">48sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+    <style name="TextoAsteroides.Tablet.Land.Botones" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">48sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+    </style>
+
+</resources>

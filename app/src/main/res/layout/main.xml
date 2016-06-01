@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Lacalization"
+    style="@style/LayoutTheme">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/TextoAsteroides"
+            android:text="@string/tituloAplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/TextoAsteroides.Botones"
+            android:text="@string/Arrancar"
+            android:id="@+id/button01" />
+
+        <Button
+            style="@style/TextoAsteroides.Botones"
+            android:text="@string/Configurar"
+            android:id="@+id/button02" />
+
+        <Button
+            style="@style/TextoAsteroides.Botones"
+            android:text="@string/Acercade"
+            android:id="@+id/button3" />
+
+        <Button
+            style="@style/TextoAsteroides.Botones"
+            android:text="@string/Salir"
+            android:id="@+id/button4" />
+    </LinearLayout>
+
+</RelativeLayout>
